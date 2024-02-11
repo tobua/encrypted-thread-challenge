@@ -2,7 +2,7 @@
 
 Browser-encrypted thread that can be shared through the url. Submission for the fourth weekly challenge on [Algorithm Arena](https://github.com/Algorithm-Arena/weekly-challenge-4-encrypted-thread). The project uses **Bun**, **React**, **TypeScript**, **Rsbuild** and **Biome**.
 
-[Demonstation Video](https://github.com/tobua/encrypted-thread-challenge/raw/main/video.mov)
+Demo: [Video Download](https://github.com/tobua/encrypted-thread-challenge/raw/main/video.mov) or [𝕏 Post](https://twitter.com/matthiasgiger/status/1756808521977401378).
 
 ## Description
 
