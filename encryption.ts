@@ -31,7 +31,12 @@ export async function encryptPostsToUrl(posts: Post[], password: string) {
   )
   // @ts-ignore
   const encryptedText = btoa(String.fromCharCode.apply(null, new Uint8Array(encrypted)))
-  window.location.hash = encodeURIComponent(encryptedText)
+  const encodedContent = encodeURIComponent(encryptedText)
+  if (encodedContent.length > 2000) {
+    alert('Error: Maximum allowed content size reached.')
+  } else {
+    window.location.hash = encodedContent
+  }
 }
 
 // Check if the URL has a hash.
